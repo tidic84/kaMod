@@ -1,4 +1,4 @@
-package fr.tidic.kallium;
+package fr.kallium.kamod;
 
 public class References {
 	

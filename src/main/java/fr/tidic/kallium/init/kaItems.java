@@ -1,6 +1,6 @@
 package fr.tidic.kallium.init;
 
-import fr.tidic.kallium.References;
+import fr.kallium.kamod.References;
 import fr.tidic.kallium.items.KaItemFood;
 import fr.tidic.kallium.items.KaSwitchMorpher;
 import fr.tidic.kallium.items.kaItem;

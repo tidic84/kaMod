@@ -1,4 +1,4 @@
-package fr.tidic.kallium;
+package fr.kallium.kamod;
 
 import fr.tidic.kallium.init.KaBlocks;
 import fr.tidic.kallium.init.KaRecipes;

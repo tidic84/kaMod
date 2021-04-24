@@ -1,6 +1,6 @@
 package fr.tidic.kallium.init;
 
-import fr.tidic.kallium.References;
+import fr.kallium.kamod.References;
 import fr.tidic.kallium.blocks.KaBlock;
 import fr.tidic.kallium.blocks.KaOre;
 import net.minecraft.block.Block;
