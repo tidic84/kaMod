@@ -1,0 +1,16 @@
+[
+{
+  "modid": "kallium",
+  "name": "Kallium",
+  "description": "Kallium Mod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://kalium.websr.fr/",
+  "updateUrl": "",
+  "authorList": ["Tidic","Kaoura","Pookin","Tinks","Chaipas","Nizyrix","Petitbloc","FeFe"],
+  "credits": "Merci au Kallium Staff",
+  "logoFile": "logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

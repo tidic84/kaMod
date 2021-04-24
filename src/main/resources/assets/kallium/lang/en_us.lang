@@ -1,0 +1,22 @@
+tile.kallium_block.name=Kallium Block
+tile.kallium_ore.name=Kallium Ore
+item.kallium.name=Kallium
+
+tile.argonite_block.name=Argonite Block
+tile.argonite_ore.name=Argonite Ore
+item.argonite.name=Argonite
+
+tile.bismuth_block.name=Bismuth Block
+tile.bismuth_ore.name=Bismuth Ore
+item.bismuth.name=Bismuth
+
+tile.galene_block.name=Galene Block
+tile.galene_ore.name=Galene Ore
+item.galene.name=Galene
+
+tile.atlas_block.name=Atlas Block
+item.atlas.name=Atlas
+
+item.purified_flesh.name=Purified Flesh
+
+
