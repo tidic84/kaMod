@@ -18,7 +18,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @Mod.EventBusSubscriber(modid = References.MODID)
 public class KaBlocks {
 	
-	public static Block kallium_block, argonite_block, bismuth_block, galene_block, atlas_block, kallium_ore, argonite_ore, bismuth_ore, galene_ore;
+	public static Block kallium_block, argonite_block, bismuth_block, galene_block, atlas_block, kallium_ore, argonite_ore, bismuth_ore, galene_ore, chelou_block;
 	
 	public static void init() {
 		kallium_block = new KaBlock("kallium_block", Material.ROCK, 5, CreativeTabs.BUILDING_BLOCKS);
@@ -26,6 +26,7 @@ public class KaBlocks {
 		bismuth_block = new KaBlock("bismuth_block", Material.ROCK, 5, CreativeTabs.BUILDING_BLOCKS);
 		galene_block = new KaBlock("galene_block", Material.ROCK, 5, CreativeTabs.BUILDING_BLOCKS);
 		atlas_block = new KaBlock("atlas_block", Material.ROCK, 5, CreativeTabs.BUILDING_BLOCKS);
+		chelou_block = new KaBlock("chelou_block", Material.ROCK, 5, CreativeTabs.BUILDING_BLOCKS);
 		
 		kallium_ore = new KaOre("kallium_ore", 3, CreativeTabs.BUILDING_BLOCKS);
 		argonite_ore = new KaOre("argonite_ore", 3, CreativeTabs.BUILDING_BLOCKS);
@@ -37,7 +38,7 @@ public class KaBlocks {
 	
 	@SubscribeEvent
 	public static void registerBlocks(RegistryEvent.Register<Block> event) {
-		event.getRegistry().registerAll(kallium_block, argonite_block, bismuth_block, galene_block, atlas_block, kallium_ore, argonite_ore, bismuth_ore, galene_ore);
+		event.getRegistry().registerAll(kallium_block, argonite_block, bismuth_block, galene_block, atlas_block, kallium_ore, argonite_ore, bismuth_ore, galene_ore, chelou_block);
 	}
 	
 	@SubscribeEvent
@@ -48,6 +49,7 @@ public class KaBlocks {
 				new ItemBlock(bismuth_block).setRegistryName(bismuth_block.getRegistryName()),
 				new ItemBlock(galene_block).setRegistryName(galene_block.getRegistryName()),
 				new ItemBlock(atlas_block).setRegistryName(atlas_block.getRegistryName()),
+				new ItemBlock(chelou_block).setRegistryName(chelou_block.getRegistryName()),
 				
 				new ItemBlock(kallium_ore).setRegistryName(kallium_ore.getRegistryName()),
 				new ItemBlock(argonite_ore).setRegistryName(argonite_ore.getRegistryName()),
@@ -67,6 +69,7 @@ public class KaBlocks {
 		registerRender(Item.getItemFromBlock(argonite_ore));
 		registerRender(Item.getItemFromBlock(bismuth_ore));
 		registerRender(Item.getItemFromBlock(galene_ore));
+		registerRender(Item.getItemFromBlock(chelou_block));
 	}
 	
 	private static void registerRender(Item item) {

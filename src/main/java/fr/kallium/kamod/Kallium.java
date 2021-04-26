@@ -4,6 +4,7 @@ import fr.tidic.kallium.init.KaBlocks;
 import fr.tidic.kallium.init.KaRecipes;
 import fr.tidic.kallium.init.kaItems;
 import fr.tidic.kallium.proxy.ServerProxy;
+import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -31,6 +32,8 @@ public class Kallium {
     
     @EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
+    	
+    	Blocks.DIRT.getRegistryName();
     	
     }
 }
