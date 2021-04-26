@@ -1,8 +1,9 @@
-package fr.tidic.kallium.blocks;
+package fr.kallium.kamod.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Blocks;
 
 public class KaBlock extends Block {
 
@@ -12,6 +13,7 @@ public class KaBlock extends Block {
 		setRegistryName(name);
 		setHardness(hardness);
 		setCreativeTab(tab);
+		
 	}
 
 }

@@ -1,4 +1,4 @@
-package fr.tidic.kallium.init;
+package fr.kallium.kamod.init;
 
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;

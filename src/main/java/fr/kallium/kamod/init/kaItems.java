@@ -1,9 +1,9 @@
-package fr.tidic.kallium.init;
+package fr.kallium.kamod.init;
 
 import fr.kallium.kamod.References;
-import fr.tidic.kallium.items.KaItemFood;
-import fr.tidic.kallium.items.KaSwitchMorpher;
-import fr.tidic.kallium.items.kaItem;
+import fr.kallium.kamod.items.KaItemFood;
+import fr.kallium.kamod.items.KaSwitchMorpher;
+import fr.kallium.kamod.items.kaItem;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;

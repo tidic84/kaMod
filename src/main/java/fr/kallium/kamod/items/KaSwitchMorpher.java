@@ -1,6 +1,6 @@
-package fr.tidic.kallium.items;
+package fr.kallium.kamod.items;
 
-import fr.tidic.kallium.playerHelper.KaPlayerHelper;
+import fr.kallium.kamod.playerHelper.KaPlayerHelper;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;

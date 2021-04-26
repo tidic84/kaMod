@@ -1,4 +1,4 @@
-package fr.tidic.kallium.items;
+package fr.kallium.kamod.items;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemFood;
