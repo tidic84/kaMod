@@ -1,9 +1,9 @@
-package fr.tidic.kallium.blocks;
+package fr.kallium.kamod.blocks;
 
 import java.util.Random;
 
-import fr.tidic.kallium.init.KaBlocks;
-import fr.tidic.kallium.init.kaItems;
+import fr.kallium.kamod.init.KaBlocks;
+import fr.kallium.kamod.init.kaItems;
 import net.minecraft.block.BlockOre;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;

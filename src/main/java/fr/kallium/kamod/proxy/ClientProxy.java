@@ -1,4 +1,4 @@
-package fr.tidic.kallium.proxy;
+package fr.kallium.kamod.proxy;
 
 public class ClientProxy extends ServerProxy{
 	

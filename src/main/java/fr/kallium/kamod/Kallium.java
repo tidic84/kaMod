@@ -1,9 +1,9 @@
 package fr.kallium.kamod;
 
-import fr.tidic.kallium.init.KaBlocks;
-import fr.tidic.kallium.init.KaRecipes;
-import fr.tidic.kallium.init.kaItems;
-import fr.tidic.kallium.proxy.ServerProxy;
+import fr.kallium.kamod.init.KaBlocks;
+import fr.kallium.kamod.init.KaRecipes;
+import fr.kallium.kamod.init.kaItems;
+import fr.kallium.kamod.proxy.ServerProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;

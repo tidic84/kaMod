@@ -1,4 +1,4 @@
-package fr.tidic.kallium.playerHelper;
+package fr.kallium.kamod.playerHelper;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.math.AxisAlignedBB;
