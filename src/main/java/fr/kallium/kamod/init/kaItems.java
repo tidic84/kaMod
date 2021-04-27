@@ -8,13 +8,19 @@ import fr.kallium.kamod.items.KaSwitchMorpher;
 import fr.kallium.kamod.items.kaItem;
 import fr.kallium.kamod.util.References;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemArmor.ArmorMaterial;
+import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.Mod;
 
 @Mod.EventBusSubscriber(modid = References.MODID)
 public class kaItems {
 	
 	public static List<Item> ITEMS = new ArrayList<Item>();
+	
+	//Armor Material
+	public static final ArmorMaterial kallium_armor = EnumHelper.addArmorMaterial("armor_kallium", ":kallium", 100, new int[] {15, 21, 20, }, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
 	
 	//Kallium
 	public static final Item kallium = new kaItem("kallium", CreativeTabs.MISC);

@@ -1,9 +1,9 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
     "textures": {
-        "particle": "kallium:model/atlas_block",
-        "galenebord": "kallium:model/atlas_block",
-        "galene_face": "kallium:model/atlas_block"
+        "particle": "kallium:model/blocks/atlas_block",
+        "galenebord": "kallium:model/blocks/atlas_block",
+        "galene_face": "kallium:model/blocks/atlas_block"
     },
     "display": {
         "gui": {

@@ -1,8 +1,8 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
     "textures": {
-        "particle": "kallium:model/argonite_block",
-        "argonite_block": "kallium:model/argonite_block"
+        "particle": "kallium:model/blocks/argonite_block",
+        "argonite_block": "kallium:model/blocks/argonite_block"
     },
     "display": {
         "gui": {
