@@ -23,7 +23,7 @@ public class RegistryHandlers {
 	@SubscribeEvent
 	public static void onBlockRegister(RegistryEvent.Register<Block> event) {
 		
-		//event.getRegistry().registerAll(KaBlocks.BLOCKS.toArray(new Block[0]));
+		event.getRegistry().registerAll(KaBlocks.BLOCKS.toArray(new Block[0]));
 		
 	}
 

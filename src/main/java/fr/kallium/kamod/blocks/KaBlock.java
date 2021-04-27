@@ -29,5 +29,4 @@ public class KaBlock extends Block implements IHasModel{
 		Kallium.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0);
 		
 	}
-
 }
