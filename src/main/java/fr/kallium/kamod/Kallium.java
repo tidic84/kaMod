@@ -26,7 +26,6 @@ public class Kallium {
 	public void preInit(FMLPreInitializationEvent event) {
     	
     	logger = event.getModLog();
-    	KaBlocks.init();
     	KaRecipes.instance.init();
     	
     	proxy.preInit();
