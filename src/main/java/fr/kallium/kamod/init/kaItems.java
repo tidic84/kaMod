@@ -1,63 +1,40 @@
 package fr.kallium.kamod.init;
 
-import fr.kallium.kamod.References;
+import java.util.ArrayList;
+import java.util.List;
+
 import fr.kallium.kamod.items.KaItemFood;
 import fr.kallium.kamod.items.KaSwitchMorpher;
 import fr.kallium.kamod.items.kaItem;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import fr.kallium.kamod.util.References;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import net.minecraftforge.client.event.ModelRegistryEvent;
-import net.minecraftforge.client.model.ModelLoader;
-import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @Mod.EventBusSubscriber(modid = References.MODID)
 public class kaItems {
 	
-	public static Item kallium, argonite, bismuth, galene, atlas, purified_flesh, switch_morpher;
+	public static List<Item> ITEMS = new ArrayList<Item>();
 	
-	public static void init() {
-		//Kallium
-		kallium = new kaItem("kallium", CreativeTabs.MISC);
+	//Kallium
+	public static final Item kallium = new kaItem("kallium", CreativeTabs.MISC);
 		
-		//Argoite
-		argonite = new kaItem("argonite", CreativeTabs.MISC);
-		
-		//Bismuth
-		bismuth = new kaItem("bismuth", CreativeTabs.MISC);
-		
-		//Galene
-		galene = new kaItem("galene", CreativeTabs.MISC);
-		
-		//Atlas
-		atlas = new kaItem("atlas", CreativeTabs.MISC);
-		
-		//Foods
-		purified_flesh = new KaItemFood("purified_flesh", CreativeTabs.FOOD, 6, 10, true);
-		
-		//Other
-		switch_morpher = new KaSwitchMorpher("switch_morpher", CreativeTabs.FOOD);
-	}
+	//Argoite
+	public static final Item argonite = new kaItem("argonite", CreativeTabs.MISC);
 	
-	@SubscribeEvent
-	public static void registerItems(RegistryEvent.Register<Item> event) {
-		event.getRegistry().registerAll(kallium, argonite, bismuth, galene, atlas, purified_flesh, switch_morpher);
-	}
+	//Bismuth
+	public static final Item bismuth = new kaItem("bismuth", CreativeTabs.MISC);
+		
+	//Galene
+	public static final Item galene = new kaItem("galene", CreativeTabs.MISC);
+		
+	//Atlas
+	public static final Item atlas = new kaItem("atlas", CreativeTabs.MISC);
+		
+	//Foods
+	public static final Item purified_flesh = new KaItemFood("purified_flesh", CreativeTabs.FOOD, 6, 10, true);
+		
+	//Other
+	public static final Item switch_morpher = new KaSwitchMorpher("switch_morpher", CreativeTabs.FOOD);
 	
-	@SubscribeEvent
-	public static void registerRenders(ModelRegistryEvent event) {
-		registerRender(kallium);
-		registerRender(argonite);
-		registerRender(bismuth);
-		registerRender(galene);
-		registerRender(atlas);
-		registerRender(purified_flesh);
-		registerRender(switch_morpher);
 	}
-	
-	public static void registerRender(Item item) {
-		ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
-	}
-}

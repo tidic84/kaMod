@@ -1,8 +1,8 @@
 package fr.kallium.kamod.init;
 
-import fr.kallium.kamod.References;
 import fr.kallium.kamod.blocks.KaBlock;
 import fr.kallium.kamod.blocks.KaOre;
+import fr.kallium.kamod.util.References;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;

@@ -1,4 +1,4 @@
-package fr.kallium.kamod;
+package fr.kallium.kamod.util;
 
 public class References {
 	
