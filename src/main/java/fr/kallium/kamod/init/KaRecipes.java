@@ -12,7 +12,7 @@ public class KaRecipes {
 	
 	public static void init() {
 		GameRegistry.addSmelting(Items.ROTTEN_FLESH, new ItemStack(kaItems.purified_flesh), 2);
-		GameRegistry.addSmelting(new ItemStack(KaBlocks.argonite_ore), new ItemStack(kaItems.argonite), 2);
+		GameRegistry.addSmelting(KaBlocks.argonite_ore, new ItemStack(kaItems.argonite, 1, 0), 2F);
 		
 
 	}

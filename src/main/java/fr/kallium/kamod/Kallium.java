@@ -26,7 +26,6 @@ public class Kallium {
 	public void preInit(FMLPreInitializationEvent event) {
     	
     	logger = event.getModLog();
-    	KaRecipes.instance.init();
     	
     	proxy.preInit();
 
@@ -39,6 +38,7 @@ public class Kallium {
     @EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
     	
-    	
+    	KaRecipes.instance.init();
+
     }
 }
