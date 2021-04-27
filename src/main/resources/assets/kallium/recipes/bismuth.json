@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "kallium:bismuth_block"
+        }
+    },
+    "result": {
+        "item": "kallium:bismuth",
+        "count": 9
+    }
+}

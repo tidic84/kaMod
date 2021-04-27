@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "kallium:atlas_block"
+        }
+    },
+    "result": {
+        "item": "kallium:atlas",
+        "count": 9
+    }
+}
