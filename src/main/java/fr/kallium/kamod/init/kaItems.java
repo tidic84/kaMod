@@ -8,6 +8,7 @@ import fr.kallium.kamod.items.KaItemFood;
 import fr.kallium.kamod.items.KaSwitchMorpher;
 import fr.kallium.kamod.items.kaItem;
 import fr.kallium.kamod.items.armor.KaArmor;
+import fr.kallium.kamod.items.tools.KaPickaxe;
 import fr.kallium.kamod.items.tools.KaSword;
 import fr.kallium.kamod.util.References;
 import net.minecraft.creativetab.CreativeTabs;
@@ -67,6 +68,9 @@ public class kaItems {
 	public static final Item galene_leggings = new KaArmor("galene_leggings", galene_armor, 2, EntityEquipmentSlot.LEGS);
 	public static final Item galene_boots = new KaArmor("galene_boots", galene_armor, 1, EntityEquipmentSlot.FEET);
 	public static final Item galene_sword = new KaSword("galene_sword", galene_material, Kallium.KalliumTab );
+	public static final Item galene_pickaxe = new KaPickaxe("galene_pickaxe", galene_material, Kallium.KalliumTab );
+
+	
 	
 	
 	//Atlas
