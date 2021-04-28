@@ -3,7 +3,7 @@ package fr.kallium.kamod.init;
 import java.util.ArrayList;
 import java.util.List;
 
-import fr.kallium.kamod.blocks.AcceleratorBlock;
+import fr.kallium.kamod.blocks.DiscoBlock;
 import fr.kallium.kamod.blocks.KaBlock;
 import fr.kallium.kamod.blocks.KaOre;
 import fr.kallium.kamod.util.References;
@@ -34,7 +34,7 @@ public class KaBlocks {
 
 		
 		//Autres
-		public static final Block disco_block = new KaBlock("disco_block", Material.ROCK, 5, CreativeTabs.BUILDING_BLOCKS);
+		public static final Block disco_block = new DiscoBlock("disco_block", Material.ROCK, 5, CreativeTabs.BUILDING_BLOCKS);
 		public static final Block leather_block = new KaBlock("leather_block", Material.ANVIL, 3, CreativeTabs.BUILDING_BLOCKS);
 		
 		

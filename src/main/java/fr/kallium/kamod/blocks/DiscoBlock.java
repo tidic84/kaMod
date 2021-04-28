@@ -18,9 +18,9 @@ import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class AcceleratorBlock extends Block implements IHasModel{
+public class DiscoBlock extends Block implements IHasModel{
 
-	public AcceleratorBlock(String name, Material materialIn, int hardness, CreativeTabs tab) {
+	public DiscoBlock(String name, Material materialIn, int hardness, CreativeTabs tab) {
 		super(materialIn);
 		setUnlocalizedName(name);
 		setRegistryName(name);
