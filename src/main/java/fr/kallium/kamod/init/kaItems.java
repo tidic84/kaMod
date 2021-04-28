@@ -3,15 +3,18 @@ package fr.kallium.kamod.init;
 import java.util.ArrayList;
 import java.util.List;
 
+import fr.kallium.kamod.Kallium;
 import fr.kallium.kamod.items.KaItemFood;
 import fr.kallium.kamod.items.KaSwitchMorpher;
 import fr.kallium.kamod.items.kaItem;
 import fr.kallium.kamod.items.armor.KaArmor;
+import fr.kallium.kamod.items.tools.KaSword;
 import fr.kallium.kamod.util.References;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
+import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.Mod;
@@ -21,12 +24,20 @@ public class kaItems {
 	
 	public static List<Item> ITEMS = new ArrayList<Item>();
 	
+	
+	//Tool materials
+	public static final ToolMaterial galene_material = EnumHelper.addToolMaterial("galene_material", 4, 2250, 10, 9.0F, 12);
+	
+	
+	
+	
 	//Armor Material
 	public static final ArmorMaterial kallium_armor = EnumHelper.addArmorMaterial("kallium_armor", References.MODID + ":kallium", 100, new int[] {15, 21, 20, 18}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
 	public static final ArmorMaterial argonite_armor = EnumHelper.addArmorMaterial("argonite_armor", References.MODID + ":argonite", 100, new int[] {10, 15, 14, 13}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
 	public static final ArmorMaterial bismuth_armor = EnumHelper.addArmorMaterial("bismuth_armor", References.MODID + ":bismuth", 100, new int[] {10, 15, 14, 13}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
 	public static final ArmorMaterial galene_armor = EnumHelper.addArmorMaterial("galene_armor", References.MODID + ":galene", 100, new int[] {10, 15, 14, 13}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
 	public static final ArmorMaterial atlas_armor = EnumHelper.addArmorMaterial("atlas_armor", References.MODID + ":atlas", 100, new int[] {2, 5, 6, 2}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
+	
 	
 	//Kallium
 	public static final Item kallium = new kaItem("kallium", CreativeTabs.MISC);
@@ -55,6 +66,8 @@ public class kaItems {
 	public static final Item galene_chestplate = new KaArmor("galene_chestplate", galene_armor, 1, EntityEquipmentSlot.CHEST);
 	public static final Item galene_leggings = new KaArmor("galene_leggings", galene_armor, 2, EntityEquipmentSlot.LEGS);
 	public static final Item galene_boots = new KaArmor("galene_boots", galene_armor, 1, EntityEquipmentSlot.FEET);
+	public static final Item galene_sword = new KaSword("galene_sword", galene_material, Kallium.KalliumTab );
+	
 	
 	//Atlas
 	public static final Item atlas = new kaItem("atlas", CreativeTabs.MISC);
