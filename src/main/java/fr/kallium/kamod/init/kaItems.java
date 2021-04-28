@@ -22,7 +22,10 @@ public class kaItems {
 	public static List<Item> ITEMS = new ArrayList<Item>();
 	
 	//Armor Material
-	public static final ArmorMaterial kallium_armor = EnumHelper.addArmorMaterial("armor_kallium", ":kallium", 100, new int[] {15, 21, 20, 18}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
+	public static final ArmorMaterial kallium_armor = EnumHelper.addArmorMaterial("kallium_armor", ":kallium", 100, new int[] {15, 21, 20, 18}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
+	public static final ArmorMaterial argonite_armor = EnumHelper.addArmorMaterial("argonite_armor", ":kallium", 100, new int[] {15, 21, 20, 18}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
+	public static final ArmorMaterial bismuth_armor = EnumHelper.addArmorMaterial("bismuth_armor", ":kallium", 100, new int[] {15, 21, 20, 18}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
+	public static final ArmorMaterial galene_armor = EnumHelper.addArmorMaterial("galene_armor", ":kallium", 100, new int[] {15, 21, 20, 18}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
 	
 	//Kallium
 	public static final Item kallium = new kaItem("kallium", CreativeTabs.MISC);
