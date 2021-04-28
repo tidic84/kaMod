@@ -39,6 +39,7 @@ public class kaItems {
 		
 	//Foods
 	public static final Item purified_flesh = new KaItemFood("purified_flesh", CreativeTabs.FOOD, 6, 10, true);
+	public static final Item bean = new KaItemFood("bean", CreativeTabs.FOOD, 1, 5, true);
 		
 	//Other
 	public static final Item switch_morpher = new KaSwitchMorpher("switch_morpher", CreativeTabs.FOOD);
