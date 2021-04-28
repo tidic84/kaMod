@@ -18,5 +18,4 @@ tile.atlas_block.name=Atlas Block
 item.atlas.name=Atlas
 
 item.purified_flesh.name=Purified Flesh
-
-
+itemGroup.kallium=Kallium
