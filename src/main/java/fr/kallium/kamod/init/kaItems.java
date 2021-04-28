@@ -22,10 +22,11 @@ public class kaItems {
 	public static List<Item> ITEMS = new ArrayList<Item>();
 	
 	//Armor Material
-	public static final ArmorMaterial kallium_armor = EnumHelper.addArmorMaterial("armor_kallium", References.MODID + ":kallium", 100, new int[] {15, 21, 20, 18}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
-	public static final ArmorMaterial argonite_armor = EnumHelper.addArmorMaterial("armor_argonite", References.MODID + ":argonite", 100, new int[] {10, 15, 14, 13}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
-	public static final ArmorMaterial bismuth_armor = EnumHelper.addArmorMaterial("armor_bismuth", References.MODID + ":bismuth", 100, new int[] {10, 15, 14, 13}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
-	public static final ArmorMaterial galene_armor = EnumHelper.addArmorMaterial("armor_galene", References.MODID + ":galene", 100, new int[] {10, 15, 14, 13}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
+	public static final ArmorMaterial kallium_armor = EnumHelper.addArmorMaterial("kallium_armor", References.MODID + ":kallium", 100, new int[] {15, 21, 20, 18}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
+	public static final ArmorMaterial argonite_armor = EnumHelper.addArmorMaterial("argonite_armor", References.MODID + ":argonite", 100, new int[] {10, 15, 14, 13}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
+	public static final ArmorMaterial bismuth_armor = EnumHelper.addArmorMaterial("bismuth_armor", References.MODID + ":bismuth", 100, new int[] {10, 15, 14, 13}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
+	public static final ArmorMaterial galene_armor = EnumHelper.addArmorMaterial("galene_armor", References.MODID + ":galene", 100, new int[] {10, 15, 14, 13}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
+	public static final ArmorMaterial atlas_armor = EnumHelper.addArmorMaterial("atlas_armor", References.MODID + ":atlas", 100, new int[] {8, 12, 13, 11}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
 	
 	//Kallium
 	public static final Item kallium = new kaItem("kallium", CreativeTabs.MISC);
@@ -57,7 +58,12 @@ public class kaItems {
 	
 	//Atlas
 	public static final Item atlas = new kaItem("atlas", CreativeTabs.MISC);
-		
+	public static final Item atlas_helmet = new KaArmor("atlas_helmet", atlas_armor, 1, EntityEquipmentSlot.HEAD);
+	public static final Item atlas_chestplate = new KaArmor("atlas_chestplate", atlas_armor, 1, EntityEquipmentSlot.CHEST);
+	public static final Item atlas_leggings = new KaArmor("atlas_leggings", atlas_armor, 2, EntityEquipmentSlot.LEGS);
+	public static final Item atlas_boots = new KaArmor("atlas_boots", atlas_armor, 1, EntityEquipmentSlot.FEET);
+	
+	
 	//Foods
 	public static final Item purified_flesh = new KaItemFood("purified_flesh", CreativeTabs.FOOD, 6, 10, true);
 	public static final Item bean = new KaItemFood("bean", CreativeTabs.FOOD, 1, 5, true);
