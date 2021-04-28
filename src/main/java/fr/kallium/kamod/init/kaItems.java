@@ -26,7 +26,7 @@ public class kaItems {
 	
 	
 	//Tool materials
-	public static final ToolMaterial galene_material = EnumHelper.addToolMaterial("galene_material", 4, 2250, 10, 9.0F, 12);
+	public static final ToolMaterial galene_material = EnumHelper.addToolMaterial("galene_material", 4, 2250, 10, 6.0F, 12);
 	
 	
 	
