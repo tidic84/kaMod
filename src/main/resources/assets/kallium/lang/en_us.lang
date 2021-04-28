@@ -1,21 +1,95 @@
+// Kallium
+
 tile.kallium_block.name=Kallium Block
 tile.kallium_ore.name=Kallium Ore
 item.kallium.name=Kallium
+item.kallium_helmet.name=Kallium Helmet
+item.kallium_chestplate.name=Kallium Chestplate
+item.kallium_leggings.name=Kallium Leggings
+item.kallium_boots.name=Kallium Boots
+
+
+// Argonite
 
 tile.argonite_block.name=Argonite Block
 tile.argonite_ore.name=Argonite Ore
 item.argonite.name=Argonite
+item.argonite_helmet.name=Argonite Helmet
+item.argonite_chestplate.name=Argonite Chestplate
+item.argonite_leggings.name=Argonite Leggings
+item.argonite_boots.name=Argonite Boots
+
+
+
+// Bismuth
 
 tile.bismuth_block.name=Bismuth Block
 tile.bismuth_ore.name=Bismuth Ore
 item.bismuth.name=Bismuth
+item.bismuth_helmet.name=Bismuth Helmet
+item.bismuth_chestplate.name=Bismuth Chestplate
+item.bismuth_leggings.name=Bismuth Leggings
+item.bismuth_boots.name=Bismuth Boots
+
+
+// Galene
 
 tile.galene_block.name=Galene Block
 tile.galene_ore.name=Galene Ore
 item.galene.name=Galene
+item.galene_helmet.name=Galene Helmet
+item.galene_chestplate.name=Galene Chestplate
+item.galene_leggings.name=Galene Leggings
+item.galene_boots.name=Galene Boots
+
+
+// Atlas
 
 tile.atlas_block.name=Atlas Block
 item.atlas.name=Atlas
+item.atlas_helmet.name=Atlas Helmet
+item.atlas_leggings.name=Atlas Leggings
+item.atlas_chestplate.name=Atlas Chestplate
+item.atlas_boots.name=Atlas Boots
 
-item.purified_flesh.name=Purified Flesh
+
+// Uranium 
+
+tile.uranium_ore.name=Uranium Ore
+
+
+
+// Creative Tabs
 itemGroup.kallium=Kallium
+
+
+// Food
+item.bean.name=Bean
+item.purified_flesh.name=Purified Flesh
+
+// Blocs Random
+
+tile.disco_block.name=Disco Block
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
