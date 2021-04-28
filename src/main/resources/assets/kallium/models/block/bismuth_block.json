@@ -1,9 +1,9 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
     "textures": {
-        "particle": "kallium:model/blocks/bismuth_face",
-        "galenebord": "kallium:model/blocks/bismuth_bord",
-        "galene_face": "kallium:model/blocks/bismuth_face"
+        "particle": "kallium:models/blocks/bismuth_face",
+        "galenebord": "kallium:models/blocks/bismuth_bord",
+        "galene_face": "kallium:models/blocks/bismuth_face"
     },
     "display": {
         "gui": {

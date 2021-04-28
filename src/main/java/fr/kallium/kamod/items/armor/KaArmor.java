@@ -1,4 +1,4 @@
-package fr.kallium.kamod.items;
+package fr.kallium.kamod.items.armor;
 
 import fr.kallium.kamod.Kallium;
 import fr.kallium.kamod.init.kaItems;

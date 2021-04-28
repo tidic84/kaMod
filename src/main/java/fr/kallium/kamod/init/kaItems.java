@@ -3,10 +3,10 @@ package fr.kallium.kamod.init;
 import java.util.ArrayList;
 import java.util.List;
 
-import fr.kallium.kamod.items.KaArmor;
 import fr.kallium.kamod.items.KaItemFood;
 import fr.kallium.kamod.items.KaSwitchMorpher;
 import fr.kallium.kamod.items.kaItem;
+import fr.kallium.kamod.items.armor.KaArmor;
 import fr.kallium.kamod.util.References;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.SoundEvents;
@@ -22,10 +22,10 @@ public class kaItems {
 	public static List<Item> ITEMS = new ArrayList<Item>();
 	
 	//Armor Material
-	public static final ArmorMaterial kallium_armor = EnumHelper.addArmorMaterial("kallium_armor", References.MODID + ":kallium", 100, new int[] {15, 21, 20, 18}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
-	public static final ArmorMaterial argonite_armor = EnumHelper.addArmorMaterial("argonite_armor", References.MODID + ":argonite", 100, new int[] {10, 15, 14, 13}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
-	public static final ArmorMaterial bismuth_armor = EnumHelper.addArmorMaterial("bismuth_armor", References.MODID + ":bismuth", 100, new int[] {10, 15, 14, 13}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
-	public static final ArmorMaterial galene_armor = EnumHelper.addArmorMaterial("galene_armor", References.MODID + ":galene", 100, new int[] {10, 15, 14, 13}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
+	public static final ArmorMaterial kallium_armor = EnumHelper.addArmorMaterial("armor_kallium", References.MODID + ":kallium", 100, new int[] {15, 21, 20, 18}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
+	public static final ArmorMaterial argonite_armor = EnumHelper.addArmorMaterial("armor_argonite", References.MODID + ":argonite", 100, new int[] {10, 15, 14, 13}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
+	public static final ArmorMaterial bismuth_armor = EnumHelper.addArmorMaterial("armor_bismuth", References.MODID + ":bismuth", 100, new int[] {10, 15, 14, 13}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
+	public static final ArmorMaterial galene_armor = EnumHelper.addArmorMaterial("armor_galene", References.MODID + ":galene", 100, new int[] {10, 15, 14, 13}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
 	
 	//Kallium
 	public static final Item kallium = new kaItem("kallium", CreativeTabs.MISC);
