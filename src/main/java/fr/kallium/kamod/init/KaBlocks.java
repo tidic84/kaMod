@@ -34,7 +34,7 @@ public class KaBlocks {
 
 		
 		//Autres
-		public static final Block accelerator_block = new AcceleratorBlock("accelerator_block", Material.ROCK, 5, CreativeTabs.BUILDING_BLOCKS);
+		public static final Block disco_block = new KaBlock("disco_block", Material.ROCK, 5, CreativeTabs.BUILDING_BLOCKS);
 		public static final Block leather_block = new KaBlock("leather_block", Material.ANVIL, 3, CreativeTabs.BUILDING_BLOCKS);
 		
 		

@@ -40,5 +40,10 @@ public class Kallium {
     	
     	KaRecipes.instance.init();
 
+    	
+    	
+    	
+    	
+    	
     }
 }

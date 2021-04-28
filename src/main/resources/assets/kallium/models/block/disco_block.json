@@ -2,6 +2,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "kallium:blocks/accelerator_block"
+        "all": "kallium:blocks/disco_block"
     }
 }
