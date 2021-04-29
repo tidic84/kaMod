@@ -10,6 +10,7 @@ import fr.kallium.kamod.items.kaItem;
 import fr.kallium.kamod.items.armor.KaArmor;
 import fr.kallium.kamod.items.tools.KaAxe;
 import fr.kallium.kamod.items.tools.KaPickaxe;
+import fr.kallium.kamod.items.tools.KaShovel;
 import fr.kallium.kamod.items.tools.KaSword;
 import fr.kallium.kamod.util.References;
 import net.minecraft.creativetab.CreativeTabs;
@@ -53,7 +54,7 @@ public class kaItems {
 	public static final Item kallium_sword = new KaSword("kallium_sword", kallium_material, Kallium.KalliumTab );
 	public static final Item kallium_pickaxe = new KaPickaxe("kallium_pickaxe", kallium_material, Kallium.KalliumTab );
 	public static final Item kallium_axe = new KaAxe("kallium_axe", kallium_material, Kallium.KalliumTab );
-	public static final Item kallium_shovel = new KaAxe("kallium_shovel", kallium_material, Kallium.KalliumTab );
+	public static final Item kallium_shovel = new KaShovel("kallium_shovel", kallium_material, Kallium.KalliumTab );
 	
 	//Argonite
 	public static final Item argonite = new kaItem("argonite", CreativeTabs.MISC);
@@ -64,7 +65,7 @@ public class kaItems {
 	public static final Item argonite_sword = new KaSword("argonite_sword", argonite_material, Kallium.KalliumTab );
 	public static final Item argonite_pickaxe = new KaPickaxe("argonite_pickaxe", argonite_material, Kallium.KalliumTab );
 	public static final Item argonite_axe = new KaAxe("argonite_axe", argonite_material, Kallium.KalliumTab );
-	public static final Item argonite_shovel = new KaAxe("argonite_shovel", argonite_material, Kallium.KalliumTab );
+	public static final Item argonite_shovel = new KaShovel("argonite_shovel", argonite_material, Kallium.KalliumTab );
 	
 	//Bismuth
 	public static final Item bismuth = new kaItem("bismuth", CreativeTabs.MISC);
@@ -75,7 +76,7 @@ public class kaItems {
 	public static final Item bismuth_sword = new KaSword("bismuth_sword", bismuth_material, Kallium.KalliumTab );
 	public static final Item bismuth_pickaxe = new KaPickaxe("bismuth_pickaxe", bismuth_material, Kallium.KalliumTab );
 	public static final Item bismuth_axe = new KaAxe("bismuth_axe", bismuth_material, Kallium.KalliumTab );
-	public static final Item bismuth_shovel = new KaAxe("bismuth_shovel", bismuth_material, Kallium.KalliumTab );
+	public static final Item bismuth_shovel = new KaShovel("bismuth_shovel", bismuth_material, Kallium.KalliumTab );
 	
 	//Galene
 	public static final Item galene = new kaItem("galene", CreativeTabs.MISC);
@@ -86,7 +87,7 @@ public class kaItems {
 	public static final Item galene_sword = new KaSword("galene_sword", galene_material, Kallium.KalliumTab );
 	public static final Item galene_pickaxe = new KaPickaxe("galene_pickaxe", galene_material, Kallium.KalliumTab );
 	public static final Item galene_axe = new KaAxe("galene_axe", galene_material, Kallium.KalliumTab );
-	public static final Item galene_shovel = new KaAxe("galene_shovel", galene_material, Kallium.KalliumTab );
+	public static final Item galene_shovel = new KaShovel("galene_shovel", galene_material, Kallium.KalliumTab );
 	
 
 	
