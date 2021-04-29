@@ -8,6 +8,7 @@ import fr.kallium.kamod.items.KaItemFood;
 import fr.kallium.kamod.items.KaSwitchMorpher;
 import fr.kallium.kamod.items.kaItem;
 import fr.kallium.kamod.items.armor.KaArmor;
+import fr.kallium.kamod.items.other.KaCd;
 import fr.kallium.kamod.items.tools.KaAxe;
 import fr.kallium.kamod.items.tools.KaPickaxe;
 import fr.kallium.kamod.items.tools.KaShovel;
@@ -19,6 +20,8 @@ import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.SoundEvent;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.Mod;
 
@@ -89,9 +92,6 @@ public class kaItems {
 	public static final Item galene_axe = new KaAxe("galene_axe", galene_material, Kallium.KalliumTab );
 	public static final Item galene_shovel = new KaShovel("galene_shovel", galene_material, Kallium.KalliumTab );
 	
-
-	
-	
 	
 	//Atlas
 	public static final Item atlas = new kaItem("atlas", CreativeTabs.MISC);
@@ -107,5 +107,7 @@ public class kaItems {
 		
 	//Other
 	public static final Item switch_morpher = new KaSwitchMorpher("switch_morpher", CreativeTabs.FOOD);
+	public static final Item cd1 = new KaCd("cd1", Kallium.KalliumTab, new SoundEvent(new ResourceLocation(References.MODID + "cd1")));
+	
 	
 	}

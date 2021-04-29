@@ -51,6 +51,7 @@ public class RegistryHandlers {
 	
 	public static void preInitRegistries() {
 		
+		SoundsHandler.registerSounds();
 	}
 	
 	public static void initRegistries() {
