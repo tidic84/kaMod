@@ -48,9 +48,13 @@ public class KaArmor extends ItemArmor implements IHasModel {
 			if (helmet.getItem() == kaItems.atlas_helmet && chestplate.getItem() == kaItems.atlas_chestplate && leggings.getItem() == kaItems.atlas_leggings && boots.getItem() == kaItems.atlas_boots) {
 			
 			player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 1, 0));
-			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 1, 1));
-			player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 1, 0));
+			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 3, 1));
+			player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 3, 0));
 			player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 20, 0));
+		
+			if (!player.onGround )
+				player.motionY *= 0.70;			
+
 			
 			}
 			
