@@ -1,7 +1,7 @@
 package fr.kallium.kamod.util.handlers;
 
 import fr.kallium.kamod.init.KaBlocks;
-import fr.kallium.kamod.init.kaItems;
+import fr.kallium.kamod.init.KaItems;
 import fr.kallium.kamod.util.interfaces.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -16,7 +16,7 @@ public class RegistryHandlers {
 	@SubscribeEvent
 	public static void onItemRegister(RegistryEvent.Register<Item> event) {
 		
-		event.getRegistry().registerAll(kaItems.ITEMS.toArray(new Item[0]));
+		event.getRegistry().registerAll(KaItems.ITEMS.toArray(new Item[0]));
 		
 	}
 	
@@ -31,7 +31,7 @@ public class RegistryHandlers {
 	@SubscribeEvent
 	public static void onModelRegister(ModelRegistryEvent event) {
 		
-		for(Item item : kaItems.ITEMS) {
+		for(Item item : KaItems.ITEMS) {
 			
 			if (item instanceof IHasModel) {
 				

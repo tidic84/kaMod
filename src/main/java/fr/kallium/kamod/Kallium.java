@@ -5,6 +5,7 @@ import fr.kallium.kamod.proxy.ServerProxy;
 import fr.kallium.kamod.tabs.KalliumTab;
 import fr.kallium.kamod.util.References;
 import fr.kallium.kamod.util.handlers.RegistryHandlers;
+import fr.kallium.kamod.util.handlers.SoundsHandler;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraftforge.fml.common.Mod;
@@ -41,6 +42,8 @@ public class Kallium {
     @EventHandler
 	public void init(FMLInitializationEvent event) {
     	RegistryHandlers.initRegistries();
+    	
+    	
     }
     
     @EventHandler

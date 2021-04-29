@@ -6,7 +6,7 @@ import java.util.List;
 import fr.kallium.kamod.Kallium;
 import fr.kallium.kamod.items.KaItemFood;
 import fr.kallium.kamod.items.KaSwitchMorpher;
-import fr.kallium.kamod.items.kaItem;
+import fr.kallium.kamod.items.KaItem;
 import fr.kallium.kamod.items.armor.KaArmor;
 import fr.kallium.kamod.items.other.KaCd;
 import fr.kallium.kamod.items.tools.KaAxe;
@@ -26,7 +26,7 @@ import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.Mod;
 
 @Mod.EventBusSubscriber(modid = References.MODID)
-public class kaItems {
+public class KaItems {
 	
 	public static List<Item> ITEMS = new ArrayList<Item>();
 	
@@ -49,7 +49,7 @@ public class kaItems {
 	
 	
 	//Kallium
-	public static final Item kallium = new kaItem("kallium", CreativeTabs.MISC);
+	public static final Item kallium = new KaItem("kallium", CreativeTabs.MISC);
 	public static final Item kallium_helmet = new KaArmor("kallium_helmet", kallium_armor, 1, EntityEquipmentSlot.HEAD);
 	public static final Item kallium_chestplate = new KaArmor("kallium_chestplate", kallium_armor, 1, EntityEquipmentSlot.CHEST);
 	public static final Item kallium_leggings = new KaArmor("kallium_leggings", kallium_armor, 2, EntityEquipmentSlot.LEGS);
@@ -60,7 +60,7 @@ public class kaItems {
 	public static final Item kallium_shovel = new KaShovel("kallium_shovel", kallium_material, Kallium.KalliumTab );
 	
 	//Argonite
-	public static final Item argonite = new kaItem("argonite", CreativeTabs.MISC);
+	public static final Item argonite = new KaItem("argonite", CreativeTabs.MISC);
 	public static final Item argonite_helmet = new KaArmor("argonite_helmet", argonite_armor, 1, EntityEquipmentSlot.HEAD);
 	public static final Item argonite_chestplate = new KaArmor("argonite_chestplate", argonite_armor, 1, EntityEquipmentSlot.CHEST);
 	public static final Item argonite_leggings = new KaArmor("argonite_leggings", argonite_armor, 2, EntityEquipmentSlot.LEGS);
@@ -71,7 +71,7 @@ public class kaItems {
 	public static final Item argonite_shovel = new KaShovel("argonite_shovel", argonite_material, Kallium.KalliumTab );
 	
 	//Bismuth
-	public static final Item bismuth = new kaItem("bismuth", CreativeTabs.MISC);
+	public static final Item bismuth = new KaItem("bismuth", CreativeTabs.MISC);
 	public static final Item bismuth_helmet = new KaArmor("bismuth_helmet", bismuth_armor, 1, EntityEquipmentSlot.HEAD);
 	public static final Item bismuth_chestplate = new KaArmor("bismuth_chestplate", bismuth_armor, 1, EntityEquipmentSlot.CHEST);
 	public static final Item bismuth_leggings = new KaArmor("bismuth_leggings", bismuth_armor, 2, EntityEquipmentSlot.LEGS);
@@ -82,7 +82,7 @@ public class kaItems {
 	public static final Item bismuth_shovel = new KaShovel("bismuth_shovel", bismuth_material, Kallium.KalliumTab );
 	
 	//Galene
-	public static final Item galene = new kaItem("galene", CreativeTabs.MISC);
+	public static final Item galene = new KaItem("galene", CreativeTabs.MISC);
 	public static final Item galene_helmet = new KaArmor("galene_helmet", galene_armor, 1, EntityEquipmentSlot.HEAD);
 	public static final Item galene_chestplate = new KaArmor("galene_chestplate", galene_armor, 1, EntityEquipmentSlot.CHEST);
 	public static final Item galene_leggings = new KaArmor("galene_leggings", galene_armor, 2, EntityEquipmentSlot.LEGS);
@@ -94,7 +94,7 @@ public class kaItems {
 	
 	
 	//Atlas
-	public static final Item atlas = new kaItem("atlas", CreativeTabs.MISC);
+	public static final Item atlas = new KaItem("atlas", CreativeTabs.MISC);
 	public static final Item atlas_helmet = new KaArmor("atlas_helmet", atlas_armor, 1, EntityEquipmentSlot.HEAD);
 	public static final Item atlas_chestplate = new KaArmor("atlas_chestplate", atlas_armor, 1, EntityEquipmentSlot.CHEST);
 	public static final Item atlas_leggings = new KaArmor("atlas_leggings", atlas_armor, 2, EntityEquipmentSlot.LEGS);
@@ -108,7 +108,7 @@ public class kaItems {
 	//Other
 	public static final Item switch_morpher = new KaSwitchMorpher("switch_morpher", CreativeTabs.FOOD);
 	public static final Item cd1 = new KaCd("cd1", Kallium.KalliumTab, new SoundEvent(new ResourceLocation(References.MODID + "cd1")));
-	public static final Item tin_can = new kaItem("tin_can",Kallium.KalliumTab);
+	public static final Item tin_can = new KaItem("tin_can",Kallium.KalliumTab);
 	
 	
 	

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "kallium:atlas",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "kallium:atlas_boots",
+        "count": 1
+    }
+}

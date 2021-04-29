@@ -4,7 +4,7 @@ import java.util.Random;
 
 import fr.kallium.kamod.Kallium;
 import fr.kallium.kamod.init.KaBlocks;
-import fr.kallium.kamod.init.kaItems;
+import fr.kallium.kamod.init.KaItems;
 import fr.kallium.kamod.util.interfaces.IHasModel;
 import net.minecraft.block.BlockOre;
 import net.minecraft.block.state.IBlockState;
@@ -28,7 +28,7 @@ public class KaOre extends BlockOre implements IHasModel{
 		setHarvestLevel("pickaxe", harvestLevel);
 		setCreativeTab(tab);
 		KaBlocks.BLOCKS.add(this);
-		kaItems.ITEMS.add(new ItemBlock(this).setRegistryName(name));
+		KaItems.ITEMS.add(new ItemBlock(this).setRegistryName(name));
 	}
 	
 	public KaOre(String name, int harvestLevel, int minDrop, int maxDrop, CreativeTabs tab) {
@@ -43,7 +43,7 @@ public class KaOre extends BlockOre implements IHasModel{
 	
 	public Item getItemDropped(IBlockState state, Random random, int fortune) {
 		if(this == KaBlocks.kallium_ore) {
-			return kaItems.kallium;	
+			return KaItems.kallium;	
 		} else {
 			return Item.getItemFromBlock(this);	
 		}

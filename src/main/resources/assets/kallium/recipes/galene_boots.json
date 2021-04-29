@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "kallium:galene",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "kallium:galene_boots",
+        "count": 1
+    }
+}

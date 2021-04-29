@@ -5,7 +5,7 @@ import java.util.Set;
 import com.google.common.collect.Sets;
 
 import fr.kallium.kamod.Kallium;
-import fr.kallium.kamod.init.kaItems;
+import fr.kallium.kamod.init.KaItems;
 import fr.kallium.kamod.util.interfaces.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -31,7 +31,7 @@ public class KaAxe extends ItemTool implements IHasModel {
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(tab);
-		kaItems.ITEMS.add(this);
+		KaItems.ITEMS.add(this);
 	}
 
 	@Override

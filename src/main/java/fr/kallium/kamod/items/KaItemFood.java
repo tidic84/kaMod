@@ -1,7 +1,7 @@
 package fr.kallium.kamod.items;
 
 import fr.kallium.kamod.Kallium;
-import fr.kallium.kamod.init.kaItems;
+import fr.kallium.kamod.init.KaItems;
 import fr.kallium.kamod.util.interfaces.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemFood;
@@ -13,7 +13,7 @@ public class KaItemFood extends ItemFood implements IHasModel{
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(tab);
-		kaItems.ITEMS.add(this);
+		KaItems.ITEMS.add(this);
 
 		
 	}

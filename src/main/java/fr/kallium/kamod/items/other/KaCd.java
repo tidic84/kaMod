@@ -1,7 +1,7 @@
 package fr.kallium.kamod.items.other;
 
 import fr.kallium.kamod.Kallium;
-import fr.kallium.kamod.init.kaItems;
+import fr.kallium.kamod.init.KaItems;
 import fr.kallium.kamod.util.References;
 import fr.kallium.kamod.util.interfaces.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
@@ -19,7 +19,7 @@ public class KaCd extends ItemRecord implements IHasModel{
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(tab);
-		kaItems.ITEMS.add(this);
+		KaItems.ITEMS.add(this);
 	}
 
 	@Override
@@ -28,15 +28,5 @@ public class KaCd extends ItemRecord implements IHasModel{
 
 	}
 	
-	@SideOnly(Side.CLIENT)
-	public String getRecordTitle()
-	{
-	    return "ModTutorial - " + this.getRecordTitle();
-	}
-	
-	public ResourceLocation getRecordResource(String name)
-    {
-        return new ResourceLocation(References.MODID + name);
-    }
 
 }

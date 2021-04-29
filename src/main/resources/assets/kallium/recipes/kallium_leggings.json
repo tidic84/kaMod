@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "# #",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "kallium:kallium",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "kallium:kallium_leggings",
+        "count": 1
+    }
+}

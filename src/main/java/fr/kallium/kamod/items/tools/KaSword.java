@@ -1,7 +1,7 @@
 package fr.kallium.kamod.items.tools;
 
 import fr.kallium.kamod.Kallium;
-import fr.kallium.kamod.init.kaItems;
+import fr.kallium.kamod.init.KaItems;
 import fr.kallium.kamod.util.interfaces.IHasModel;
 import net.minecraft.client.Minecraft;
 import net.minecraft.creativetab.CreativeTabs;
@@ -19,7 +19,7 @@ public class KaSword extends ItemSword implements IHasModel{
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(tab);
-		kaItems.ITEMS.add(this);
+		KaItems.ITEMS.add(this);
 	}
 
 	@Override

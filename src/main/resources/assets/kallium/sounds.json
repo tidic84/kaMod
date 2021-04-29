@@ -1,0 +1,8 @@
+{
+    "records":
+    {
+            "category": "record",
+            "subtitle": "record.cd1",
+            "sounds": [{"name": "kallium:records/cd1", "stream": true}]
+    }
+}

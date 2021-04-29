@@ -1,7 +1,7 @@
 package fr.kallium.kamod.items.armor;
 
 import fr.kallium.kamod.Kallium;
-import fr.kallium.kamod.init.kaItems;
+import fr.kallium.kamod.init.KaItems;
 import fr.kallium.kamod.tabs.KalliumTab;
 import fr.kallium.kamod.util.interfaces.IHasModel;
 import net.minecraft.client.particle.ParticleDrip.WaterFactory;
@@ -22,7 +22,7 @@ public class KaArmor extends ItemArmor implements IHasModel {
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(Kallium.KalliumTab);
-		kaItems.ITEMS.add(this);
+		KaItems.ITEMS.add(this);
 		
 	}
 
@@ -45,7 +45,7 @@ public class KaArmor extends ItemArmor implements IHasModel {
 			ItemStack leggings = player.inventory.armorInventory.get(1);
 			ItemStack boots = player.inventory.armorInventory.get(0);
 			
-			if (helmet.getItem() == kaItems.atlas_helmet && chestplate.getItem() == kaItems.atlas_chestplate && leggings.getItem() == kaItems.atlas_leggings && boots.getItem() == kaItems.atlas_boots) {
+			if (helmet.getItem() == KaItems.atlas_helmet && chestplate.getItem() == KaItems.atlas_chestplate && leggings.getItem() == KaItems.atlas_leggings && boots.getItem() == KaItems.atlas_boots) {
 			
 			player.addPotionEffect(new PotionEffect(MobEffects.WATER_BREATHING, 1, 0));
 			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 2, 1));

@@ -2,7 +2,7 @@ package fr.kallium.kamod.blocks;
 
 import fr.kallium.kamod.Kallium;
 import fr.kallium.kamod.init.KaBlocks;
-import fr.kallium.kamod.init.kaItems;
+import fr.kallium.kamod.init.KaItems;
 import fr.kallium.kamod.util.interfaces.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -19,7 +19,7 @@ public class KaBlock extends Block implements IHasModel{
 		setHardness(hardness);
 		setCreativeTab(tab);
 		KaBlocks.BLOCKS.add(this);
-		kaItems.ITEMS.add(new ItemBlock(this).setRegistryName(name));
+		KaItems.ITEMS.add(new ItemBlock(this).setRegistryName(name));
 		
 	}
 

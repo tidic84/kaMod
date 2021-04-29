@@ -1,7 +1,7 @@
 package fr.kallium.kamod.tabs;
 
-import fr.kallium.kamod.init.kaItems;
-import fr.kallium.kamod.items.kaItem;
+import fr.kallium.kamod.init.KaItems;
+import fr.kallium.kamod.items.KaItem;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.datafix.fixes.ItemIntIDToString;
@@ -16,7 +16,7 @@ public class KalliumTab extends CreativeTabs
 	
 	@Override
 	public ItemStack getTabIconItem() {
-		return new ItemStack(kaItems.kallium);
+		return new ItemStack(KaItems.kallium);
 	}
 
 }
