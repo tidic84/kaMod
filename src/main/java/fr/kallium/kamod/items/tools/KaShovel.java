@@ -4,9 +4,10 @@ import fr.kallium.kamod.Kallium;
 import fr.kallium.kamod.init.kaItems;
 import fr.kallium.kamod.util.interfaces.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.ItemPickaxe;
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.item.ItemSpade;
 
-public class KaShovel extends ItemPickaxe implements IHasModel{
+public class KaShovel extends ItemSpade implements IHasModel{
 
 	public KaShovel(String name, ToolMaterial material, CreativeTabs tab) {
 		super(material);
