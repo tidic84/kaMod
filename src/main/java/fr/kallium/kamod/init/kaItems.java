@@ -108,6 +108,8 @@ public class kaItems {
 	//Other
 	public static final Item switch_morpher = new KaSwitchMorpher("switch_morpher", CreativeTabs.FOOD);
 	public static final Item cd1 = new KaCd("cd1", Kallium.KalliumTab, new SoundEvent(new ResourceLocation(References.MODID + "cd1")));
+	public static final Item tin_can = new kaItem("tin_can",Kallium.KalliumTab);
+	
 	
 	
 	}
