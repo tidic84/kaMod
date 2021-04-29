@@ -51,6 +51,7 @@ public class KaArmor extends ItemArmor implements IHasModel {
 			player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 2, 1));
 			player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 3, 0));
 			player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 20, 0));
+			player.addPotionEffect(new PotionEffect(MobEffects.SATURATION, 3, 1));
 		
 			if (!player.onGround )
 				player.motionY *= 0.95;			
