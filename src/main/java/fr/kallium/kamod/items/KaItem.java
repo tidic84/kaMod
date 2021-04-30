@@ -20,6 +20,7 @@ public class KaItem extends Item implements IHasModel {
 	public void registerModels() {
 		
 		Kallium.proxy.registerItemRenderer(this, 0);
+		
 	}
 
 }
