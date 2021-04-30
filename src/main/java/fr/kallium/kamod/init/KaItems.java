@@ -107,6 +107,7 @@ public class KaItems {
 	//Foods
 	public static final Item purified_flesh = new KaItemFood("purified_flesh", CreativeTabs.FOOD, 6, 10, true);
 	public static final Item bean = new KaItemFood("bean", CreativeTabs.FOOD, 1, 5, true);
+	public static final Item cooked_carrot = new KaItemFood("cooked_carrot", CreativeTabs.FOOD, 4, 7, true);
 		
 	//Other
 	public static final Item invisibility_cloak = new KaArmor("invisibility_cloak", invisibility_cloak_armor, 1, EntityEquipmentSlot.CHEST);
