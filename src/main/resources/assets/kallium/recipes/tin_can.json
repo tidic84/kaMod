@@ -1,18 +1,17 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "# #",
 	    "# #",
 	    " # "
     ],   
     "key": {
         "#": {
-            "item": "minecraft:iron_ingot",
+            "item": "kallium:aluminium_ingot",
             "data": 0
         }
     },
     "result": {
         "item": "kallium:tin_can",
-        "count": 4
+        "count": 3
     }
 }

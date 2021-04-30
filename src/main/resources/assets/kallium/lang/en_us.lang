@@ -69,8 +69,6 @@ item.aluminium_ingot.name=Aluminium Ingot
 // Uranium 
 tile.uranium_ore.name=Uranium Ore
 
-
-
 // Creative Tabs
 itemGroup.kallium=Kallium
 
@@ -84,7 +82,9 @@ tile.disco_block.name=Disco Block
 
 // Autres
 item.tin_can.name=Tin Can
-item.bean_tin_can=Bean Tin Can
+item.canned_beans.name=Canned Beans
+item.canned_carrot.name=Canned Carrots
+item.canned_potatos.name=Canned Potatos
 
 
 

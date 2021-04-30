@@ -113,7 +113,9 @@ public class KaItems {
 	public static final Item switch_morpher = new KaSwitchMorpher("switch_morpher", CreativeTabs.FOOD);
 	public static final Item cd1 = new KaCd("cd1", Kallium.KalliumTab, new SoundEvent(new ResourceLocation(References.MODID + "cd1")));
 	public static final Item tin_can = new KaItem("tin_can",Kallium.KalliumTab);
-	public static final Item bean_tin_can = new KaItem("bean_tin_can",Kallium.KalliumTab);
+	public static final Item canned_beans = new KaItem("canned_beans",Kallium.KalliumTab);
+	public static final Item canned_carrots = new KaItem("canned_carrots",Kallium.KalliumTab);
+	public static final Item canned_potatos = new KaItem("canned_potatos",Kallium.KalliumTab);
 	
 	
 	
