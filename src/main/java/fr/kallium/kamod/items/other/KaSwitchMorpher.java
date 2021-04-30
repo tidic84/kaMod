@@ -1,4 +1,4 @@
-package fr.kallium.kamod.items;
+package fr.kallium.kamod.items.other;
 
 import fr.kallium.kamod.playerHelper.KaPlayerHelper;
 import net.minecraft.creativetab.CreativeTabs;

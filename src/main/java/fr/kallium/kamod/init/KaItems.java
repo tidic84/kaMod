@@ -5,10 +5,10 @@ import java.util.List;
 
 import fr.kallium.kamod.Kallium;
 import fr.kallium.kamod.items.KaItemFood;
-import fr.kallium.kamod.items.KaSwitchMorpher;
 import fr.kallium.kamod.items.KaItem;
 import fr.kallium.kamod.items.armor.KaArmor;
 import fr.kallium.kamod.items.other.KaCd;
+import fr.kallium.kamod.items.other.KaSwitchMorpher;
 import fr.kallium.kamod.items.tools.KaAxe;
 import fr.kallium.kamod.items.tools.KaPickaxe;
 import fr.kallium.kamod.items.tools.KaShovel;
@@ -46,7 +46,8 @@ public class KaItems {
 	public static final ArmorMaterial bismuth_armor = EnumHelper.addArmorMaterial("bismuth_armor", References.MODID + ":bismuth", 100, new int[] {10, 15, 14, 13}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
 	public static final ArmorMaterial galene_armor = EnumHelper.addArmorMaterial("galene_armor", References.MODID + ":galene", 100, new int[] {10, 15, 14, 13}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
 	public static final ArmorMaterial atlas_armor = EnumHelper.addArmorMaterial("atlas_armor", References.MODID + ":atlas", 100, new int[] {2, 5, 6, 2}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
-	
+    public static final ArmorMaterial invisibility_cloak_armor = EnumHelper.addArmorMaterial("invisibility_cloak_armor", References.MODID + ":invisibility_cloak", 100, new int[] {10, 10, 10, 10}, 10, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 1.0F);
+
 	
 	//Kallium
 	public static final Item kallium = new KaItem("kallium", CreativeTabs.MISC);
@@ -106,6 +107,7 @@ public class KaItems {
 	public static final Item bean = new KaItemFood("bean", CreativeTabs.FOOD, 1, 5, true);
 		
 	//Other
+	public static final Item invisibility_cloak = new KaArmor("invisibility_cloak", invisibility_cloak_armor, 1, EntityEquipmentSlot.CHEST);
 	public static final Item switch_morpher = new KaSwitchMorpher("switch_morpher", CreativeTabs.FOOD);
 	public static final Item cd1 = new KaCd("cd1", Kallium.KalliumTab, new SoundEvent(new ResourceLocation(References.MODID + "cd1")));
 	public static final Item tin_can = new KaItem("tin_can",Kallium.KalliumTab);

@@ -59,6 +59,14 @@ public class KaArmor extends ItemArmor implements IHasModel {
 			
 			}
 			
+			if(chestplate.getItem() == KaItems.invisibility_cloak) {
+				player.addPotionEffect(new PotionEffect(MobEffects.INVISIBILITY, 10, -1));
+				player.addPotionEffect(new PotionEffect(MobEffects.WEAKNESS, 1, 9));
+				player.addPotionEffect(new PotionEffect(MobEffects.SLOWNESS, 1, 1));
+
+				
+			}
+			
 		}
 		
 		
