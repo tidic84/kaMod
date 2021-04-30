@@ -8,5 +8,8 @@ public class References {
 	public static final String MC_VERSION = "[1.12]";
 	public static final String CLIENT_PROXY = "fr.kallium.kamod.proxy.ClientProxy";
 	public static final String SERVER_PROXY = "fr.kallium.proxy.kamod.ServerProxy";
+	
+	
+	public static final int Gui_tin_machine = 0;
 
 }
