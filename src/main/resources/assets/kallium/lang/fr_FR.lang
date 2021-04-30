@@ -1,0 +1,97 @@
+// Kallium
+
+tile.kallium_block.name=Bloc De Kallium
+tile.kallium_ore.name=Minerais De Kallium 
+item.kallium.name=Kallium
+item.kallium_helmet.name=Casque En Kallium
+item.kallium_chestplate.name=PLastron En Kallium
+item.kallium_leggings.name=Jambieres En Kallium
+item.kallium_boots.name=Bottes En Kallium
+
+
+// Argonite
+
+tile.argonite_block.name=Bloc En Argonite
+tile.argonite_ore.name=Minerais D'Argonite
+item.argonite.name=Argonite
+item.argonite_helmet.name=Casque En Argonite
+item.argonite_chestplate.name=Plastron En Argonite
+item.argonite_leggings.name=Jambiere En Argonite
+item.argonite_boots.name=Bottes En Argonite
+
+
+
+// Bismuth
+
+tile.bismuth_block.name=Bloc De Bismuth
+tile.bismuth_ore.name=Minerais De Bismuth
+item.bismuth.name=Bismuth
+item.bismuth_helmet.name=Casque En Bismuth
+item.bismuth_chestplate.name=Plastron En Bismuth
+item.bismuth_leggings.name=Jambieres De Bismuth
+item.bismuth_boots.name=Bottes En Bismuth
+
+
+// Galene
+
+tile.galene_block.name=Bloc En Galene
+tile.galene_ore.name=Minerais En Galene
+item.galene.name=Galene
+item.galene_helmet.name=Casque En Galene
+item.galene_chestplate.name=Plastron En Galene
+item.galene_leggings.name=Jambieres En Galene
+item.galene_boots.name=Bottes En Galene
+
+
+// Atlas
+
+tile.atlas_block.name=Bloc D'Atlas
+item.atlas.name=Atlas
+item.atlas_helmet.name=Casque En Atlas
+item.atlas_leggings.name=Jambieres En Atlas
+item.atlas_chestplate.name=Plastron En Atlas 
+item.atlas_boots.name=Bottes En Atlas
+
+
+// Uranium 
+
+tile.uranium_ore.name=Minerais D'Uranium 
+
+
+
+
+
+// Creative Tabs
+itemGroup.kallium=Kallium
+
+
+// Food
+item.bean.name=Haricot
+item.purified_flesh.name=Chair Purifié
+
+// Blocs Random
+
+tile.disco_block.name=Bloc Disco
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
