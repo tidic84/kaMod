@@ -5,6 +5,7 @@ import fr.kallium.kamod.init.KaRecipes;
 import fr.kallium.kamod.proxy.ServerProxy;
 import fr.kallium.kamod.tabs.KalliumTab;
 import fr.kallium.kamod.util.References;
+import fr.kallium.kamod.util.ResetHitCooldown;
 import fr.kallium.kamod.util.handlers.RegistryHandlers;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.common.MinecraftForge;
@@ -42,7 +43,8 @@ public class Kallium {
     @EventHandler
 	public void init(FMLInitializationEvent event) {
     	RegistryHandlers.initRegistries();
-    	
+    	MinecraftForge.EVENT_BUS.register(new ResetHitCooldown());
+
     	MinecraftForge.EVENT_BUS.register(new EventsGroup());
     	
     }

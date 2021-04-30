@@ -50,7 +50,7 @@ public class KaItems {
 
 	
 	//Kallium
-	public static final Item kallium = new KaItem("kallium", CreativeTabs.MISC);
+	public static final Item kallium = new KaItem("kallium", Kallium.KalliumTab);
 	public static final Item kallium_helmet = new KaArmor("kallium_helmet", kallium_armor, 1, EntityEquipmentSlot.HEAD);
 	public static final Item kallium_chestplate = new KaArmor("kallium_chestplate", kallium_armor, 1, EntityEquipmentSlot.CHEST);
 	public static final Item kallium_leggings = new KaArmor("kallium_leggings", kallium_armor, 2, EntityEquipmentSlot.LEGS);
@@ -61,7 +61,7 @@ public class KaItems {
 	public static final Item kallium_shovel = new KaShovel("kallium_shovel", kallium_material, Kallium.KalliumTab );
 	
 	//Argonite
-	public static final Item argonite = new KaItem("argonite", CreativeTabs.MISC);
+	public static final Item argonite = new KaItem("argonite", Kallium.KalliumTab);
 	public static final Item argonite_helmet = new KaArmor("argonite_helmet", argonite_armor, 1, EntityEquipmentSlot.HEAD);
 	public static final Item argonite_chestplate = new KaArmor("argonite_chestplate", argonite_armor, 1, EntityEquipmentSlot.CHEST);
 	public static final Item argonite_leggings = new KaArmor("argonite_leggings", argonite_armor, 2, EntityEquipmentSlot.LEGS);
@@ -72,7 +72,7 @@ public class KaItems {
 	public static final Item argonite_shovel = new KaShovel("argonite_shovel", argonite_material, Kallium.KalliumTab );
 	
 	//Bismuth
-	public static final Item bismuth = new KaItem("bismuth", CreativeTabs.MISC);
+	public static final Item bismuth = new KaItem("bismuth", Kallium.KalliumTab);
 	public static final Item bismuth_helmet = new KaArmor("bismuth_helmet", bismuth_armor, 1, EntityEquipmentSlot.HEAD);
 	public static final Item bismuth_chestplate = new KaArmor("bismuth_chestplate", bismuth_armor, 1, EntityEquipmentSlot.CHEST);
 	public static final Item bismuth_leggings = new KaArmor("bismuth_leggings", bismuth_armor, 2, EntityEquipmentSlot.LEGS);
@@ -83,7 +83,7 @@ public class KaItems {
 	public static final Item bismuth_shovel = new KaShovel("bismuth_shovel", bismuth_material, Kallium.KalliumTab );
 	
 	//Galene
-	public static final Item galene = new KaItem("galene", CreativeTabs.MISC);
+	public static final Item galene = new KaItem("galene", Kallium.KalliumTab);
 	public static final Item galene_helmet = new KaArmor("galene_helmet", galene_armor, 1, EntityEquipmentSlot.HEAD);
 	public static final Item galene_chestplate = new KaArmor("galene_chestplate", galene_armor, 1, EntityEquipmentSlot.CHEST);
 	public static final Item galene_leggings = new KaArmor("galene_leggings", galene_armor, 2, EntityEquipmentSlot.LEGS);
@@ -93,14 +93,16 @@ public class KaItems {
 	public static final Item galene_axe = new KaAxe("galene_axe", galene_material, Kallium.KalliumTab );
 	public static final Item galene_shovel = new KaShovel("galene_shovel", galene_material, Kallium.KalliumTab );
 	
-	
 	//Atlas
-	public static final Item atlas = new KaItem("atlas", CreativeTabs.MISC);
+	public static final Item atlas = new KaItem("atlas", Kallium.KalliumTab);
 	public static final Item atlas_helmet = new KaArmor("atlas_helmet", atlas_armor, 1, EntityEquipmentSlot.HEAD);
 	public static final Item atlas_chestplate = new KaArmor("atlas_chestplate", atlas_armor, 1, EntityEquipmentSlot.CHEST);
 	public static final Item atlas_leggings = new KaArmor("atlas_leggings", atlas_armor, 2, EntityEquipmentSlot.LEGS);
 	public static final Item atlas_boots = new KaArmor("atlas_boots", atlas_armor, 1, EntityEquipmentSlot.FEET);
 	
+	//Aluminium
+	public static final Item aluminium_ingot = new KaItem("aluminium_ingot", Kallium.KalliumTab);
+
 	
 	//Foods
 	public static final Item purified_flesh = new KaItemFood("purified_flesh", CreativeTabs.FOOD, 6, 10, true);

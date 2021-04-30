@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "kallium:aluminium_block",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "kallium:aluminium_ingot",
+        "count": 9
+    }
+}

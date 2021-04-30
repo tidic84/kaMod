@@ -1,5 +1,4 @@
 // Kallium
-
 tile.kallium_block.name=Kallium Block
 tile.kallium_ore.name=Kallium Ore
 item.kallium.name=Kallium
@@ -7,10 +6,13 @@ item.kallium_helmet.name=Kallium Helmet
 item.kallium_chestplate.name=Kallium Chestplate
 item.kallium_leggings.name=Kallium Leggings
 item.kallium_boots.name=Kallium Boots
+item.kallium_sword.name=Kallium Sword
+item.kallium_pickaxe.name=Kallium Pickaxe
+item.kallium_axe.name=Kallium Axe
+item.kallium_shovel.name=Kallium Shovel
 
 
 // Argonite
-
 tile.argonite_block.name=Argonite Block
 tile.argonite_ore.name=Argonite Ore
 item.argonite.name=Argonite
@@ -18,11 +20,13 @@ item.argonite_helmet.name=Argonite Helmet
 item.argonite_chestplate.name=Argonite Chestplate
 item.argonite_leggings.name=Argonite Leggings
 item.argonite_boots.name=Argonite Boots
-
+item.argonite_sword.name=Argonite Sword
+item.argonite_pickaxe.name=Argonite Pickaxe
+item.argonite_axe.name=Argonite Axe
+item.argonite_shovel.name=Argonite Shovel
 
 
 // Bismuth
-
 tile.bismuth_block.name=Bismuth Block
 tile.bismuth_ore.name=Bismuth Ore
 item.bismuth.name=Bismuth
@@ -30,10 +34,12 @@ item.bismuth_helmet.name=Bismuth Helmet
 item.bismuth_chestplate.name=Bismuth Chestplate
 item.bismuth_leggings.name=Bismuth Leggings
 item.bismuth_boots.name=Bismuth Boots
-
+item.bismuth_sword.name=Bismuth Sword
+item.bismuth_pickaxe.name=Bismuth Pickaxe
+item.bismuth_axe.name=Bismuth Axe
+item.bismuth_shovel.name=Bismuth Shovel
 
 // Galene
-
 tile.galene_block.name=Galene Block
 tile.galene_ore.name=Galene Ore
 item.galene.name=Galene
@@ -41,10 +47,12 @@ item.galene_helmet.name=Galene Helmet
 item.galene_chestplate.name=Galene Chestplate
 item.galene_leggings.name=Galene Leggings
 item.galene_boots.name=Galene Boots
-
+item.galene_sword.name=Galene Sword
+item.galene_pickaxe.name=Galene Pickaxe
+item.galene_axe.name=Galene Axe
+item.galene_shovel.name=Galene Shovel
 
 // Atlas
-
 tile.atlas_block.name=Atlas Block
 item.atlas.name=Atlas
 item.atlas_helmet.name=Atlas Helmet
@@ -52,9 +60,13 @@ item.atlas_leggings.name=Atlas Leggings
 item.atlas_chestplate.name=Atlas Chestplate
 item.atlas_boots.name=Atlas Boots
 
+// Aluminium
+tile.aluminium_block.name=Aluminium Block
+tile.aluminium_ore.name=Aluminium Ore
+item.aluminium_ingot.name=Aluminium Ingot
+
 
 // Uranium 
-
 tile.uranium_ore.name=Uranium Ore
 
 
@@ -68,9 +80,11 @@ item.bean.name=Bean
 item.purified_flesh.name=Purified Flesh
 
 // Blocs Random
-
 tile.disco_block.name=Disco Block
 
+// Autres
+item.tin_can.name=Tin Can
+item.bean_tin_can=Bean Tin Can
 
 
 

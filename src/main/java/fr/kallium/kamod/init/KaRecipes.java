@@ -16,6 +16,7 @@ public class KaRecipes {
 		GameRegistry.addSmelting(KaBlocks.argonite_ore, new ItemStack(KaItems.argonite, 1, 0), 2F);
 		GameRegistry.addSmelting(KaBlocks.galene_ore, new ItemStack(KaItems.galene, 1, 0), 2F);
 		GameRegistry.addSmelting(KaBlocks.bismuth_ore, new ItemStack(KaItems.bismuth, 1, 0), 2F);
+		GameRegistry.addSmelting(KaBlocks.aluminium_ore, new ItemStack(KaItems.aluminium_ingot, 1, 0), 2F);
 		
 
 	}

@@ -14,15 +14,6 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public class EventsGroup {
 	
-	
-	@EventHandler
-    public void Init(FMLInitializationEvent event)
-    {
- 
-    	MinecraftForge.EVENT_BUS.register(new ResetHitCooldown());
- 
-    }
-	
 	@SubscribeEvent
     public void livingFallEvent(LivingFallEvent event){
 		
