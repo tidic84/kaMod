@@ -19,6 +19,5 @@ public class KaRecipes {
 		GameRegistry.addSmelting(KaBlocks.aluminium_ore, new ItemStack(KaItems.aluminium_ingot, 1, 0), 2F);
 		GameRegistry.addSmelting(Items.CARROT, new ItemStack(KaItems.cooked_carrot, 1, 0), 2F);
 		
-
 	}
 }

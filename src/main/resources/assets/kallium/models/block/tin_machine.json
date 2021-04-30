@@ -1,0 +1,25 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "0": "kallium:models/blocks/tin_machine_top",
+        "1": "kallium:models/blocks/tin_machine_face",
+        "4": "kallium:models/blocks/tin_machine_face2",
+        "5": "kallium:models/blocks/tin_machine_bottom",
+        "particle": "kallium:models/blocks/tin_machine_face"
+    },
+    "elements": [
+        {
+            "from": [0, 0, 0],
+            "to": [16, 16, 16],
+            "faces": {
+                "north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+                "east": {"uv": [0, 0, 16, 16], "texture": "#4"},
+                "south": {"uv": [0, 0, 16, 16], "texture": "#4"},
+                "west": {"uv": [0, 0, 16, 16], "texture": "#4"},
+                "up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+                "down": {"uv": [0, 0, 16, 16], "texture": "#5"}
+            }
+        }
+    ],
+    "display": {}
+}

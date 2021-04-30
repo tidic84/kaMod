@@ -4,11 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 import fr.kallium.kamod.Kallium;
-import fr.kallium.kamod.items.KaItemFood;
 import fr.kallium.kamod.items.KaItem;
+import fr.kallium.kamod.items.KaItemFood;
 import fr.kallium.kamod.items.armor.KaArmor;
 import fr.kallium.kamod.items.other.KaCd;
 import fr.kallium.kamod.items.other.KaSwitchMorpher;
+import fr.kallium.kamod.items.other.TinCan;
 import fr.kallium.kamod.items.tools.KaAxe;
 import fr.kallium.kamod.items.tools.KaPickaxe;
 import fr.kallium.kamod.items.tools.KaShovel;
@@ -113,7 +114,7 @@ public class KaItems {
 	public static final Item invisibility_cloak = new KaArmor("invisibility_cloak", invisibility_cloak_armor, 1, EntityEquipmentSlot.CHEST);
 	public static final Item switch_morpher = new KaSwitchMorpher("switch_morpher", CreativeTabs.FOOD);
 	public static final Item cd1 = new KaCd("cd1", Kallium.KalliumTab, new SoundEvent(new ResourceLocation(References.MODID + "cd1")));
-	public static final Item tin_can = new KaItem("tin_can",Kallium.KalliumTab);
+	public static final Item tin_can = new TinCan("tin_can",Kallium.KalliumTab);
 	public static final Item canned_beans = new KaItem("canned_beans",Kallium.KalliumTab);
 	public static final Item canned_carrots = new KaItem("canned_carrots",Kallium.KalliumTab);
 	public static final Item canned_potatos = new KaItem("canned_potatos",Kallium.KalliumTab);

@@ -7,6 +7,7 @@ import fr.kallium.kamod.Kallium;
 import fr.kallium.kamod.blocks.DiscoBlock;
 import fr.kallium.kamod.blocks.KaBlock;
 import fr.kallium.kamod.blocks.KaOre;
+import fr.kallium.kamod.blocks.TinMachine;
 import fr.kallium.kamod.util.References;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -40,6 +41,7 @@ public class KaBlocks {
 		//Autres
 		public static final Block disco_block = new DiscoBlock("disco_block", Material.ROCK, 5, Kallium.KalliumTab);
 		public static final Block leather_block = new KaBlock("leather_block", Material.ROCK, SoundType.CLOTH, 3, Kallium.KalliumTab);
+		public static final Block tin_machine = new TinMachine("tin_machine", Material.IRON);
 		
 		
 }
