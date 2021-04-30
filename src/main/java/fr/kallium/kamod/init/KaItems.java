@@ -45,7 +45,7 @@ public class KaItems {
 	public static final ArmorMaterial argonite_armor = EnumHelper.addArmorMaterial("argonite_armor", References.MODID + ":argonite", 100, new int[] {10, 15, 14, 13}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
 	public static final ArmorMaterial bismuth_armor = EnumHelper.addArmorMaterial("bismuth_armor", References.MODID + ":bismuth", 100, new int[] {10, 15, 14, 13}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
 	public static final ArmorMaterial galene_armor = EnumHelper.addArmorMaterial("galene_armor", References.MODID + ":galene", 100, new int[] {10, 15, 14, 13}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
-	public static final ArmorMaterial atlas_armor = EnumHelper.addArmorMaterial("atlas_armor", References.MODID + ":atlas", 100, new int[] {2, 5, 6, 2}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
+	public static final ArmorMaterial atlas_armor = EnumHelper.addArmorMaterial("atlas_armor", References.MODID + ":atlas", 100, new int[] {{1, 2, 3, 1}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F);
     public static final ArmorMaterial invisibility_cloak_armor = EnumHelper.addArmorMaterial("invisibility_cloak_armor", References.MODID + ":invisibility_cloak", 100, new int[] {10, 10, 10, 10}, 10, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 1.0F);
 
 	
